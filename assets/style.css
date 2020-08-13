@@ -36,7 +36,7 @@ h1 {
     color: #fff;
     -webkit-fill-color: #fff;
     -webkit-text-stroke: 2px #000;
-    margin-top: 100px;
+    margin: 100px 0 40px 0;
 }
 
 h1 i {
@@ -107,6 +107,7 @@ h1 i {
     font-size: 18px;
     display: flex;
     flex-wrap: wrap;
+    word-wrap: wrap;
 }
 
 .list_container ul i {
@@ -131,13 +132,18 @@ h1 i {
 
 #notfound {
     width: 100%;
+    padding: 25px 0;
     text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 230, 0);
+    margin-top: -150px;
     font-size: 35px;
+}
+
+.valid {
+    width: 100%;
+    padding: 10px 5px;
+    color: blue;
+    text-align: center;
+    display: none;
 }
 
 @media only screen and (max-width:768px) {
