@@ -100,7 +100,6 @@ h1 i {
 }
 
 .list_container ul {
-    min-width: 600px;
     margin-top: 25px;
     list-style: none;
 }
@@ -140,9 +139,8 @@ h1 i {
 
 #notfound {
     width: 100%;
-    padding: 25px 0;
+    padding: 5px 0 25px 0;
     text-align: center;
-    margin-top: -150px;
     font-size: 35px;
 }
 
@@ -175,23 +173,23 @@ h1 i {
         font-size: 17px;
     }
     .container button {
-        width: 80px;
+        width: 80px !important;
         height: 40px;
         padding: 6px 0;
         font-size: 16px;
     }
     .list_container {
-        min-height: 30vh;
+        min-height: 30px;
         justify-content: center;
         align-items: center;
-        padding: 20px 40px;
+        padding: 20px;
     }
     .list_container ul {
-        min-width: 350px;
-        margin: 15px;
+        width: 100%;
+        margin: 15px auto;
     }
     .list_container ul li {
-        min-width: 350px;
+        min-width: 100%;
         min-height: 40px;
         padding: 10px;
         font-size: 17px;
@@ -233,12 +231,6 @@ h1 i {
         width: 65px;
         height: 35px;
         font-size: 14px;
-    }
-    .list_container ul {
-        min-width: 300px;
-    }
-    .list_container ul li {
-        min-width: 280px;
     }
     .list_container ul i {
         width: 25px;
